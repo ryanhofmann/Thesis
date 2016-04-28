@@ -1,0 +1,2 @@
+# Thesis
+Type IIn supernova
