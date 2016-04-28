@@ -1,0 +1,21 @@
+11 December
+
+Data
+  Images: 13 sets (45 images) total
+    SuperLotis: 10 sets of BVRI from May and June (last 2 sets VR)
+    UKIRT: 3 sets of HJK from May and June
+  Spectra: 6 total
+    Berkeley: 2 low-res spectra from July and September
+    MMT: 4 high-res spectra from March through June
+
+Reduction
+  Images
+    V photometry complete
+    Suggestions for plotting light curve?
+    Will continue photometry over break
+      Calibrate B with APASS standards
+      Calibrate HJK with 2MASS
+      Need to ask Jen about standards for SuperLotis R and I
+  Spectra
+    Still waiting for that spectrum scaling script
+    Suggestions for plotting spectra together?

@@ -1,0 +1,145 @@
+#K IRAF       = NOAO/IRAFV2.16          version    %-23s     
+#K USER       = rhofmann                name       %-23s     
+#K HOST       = nimoy.as.arizona.edu    computer   %-23s     
+#K DATE       = 2015-12-16              yyyy-mm-dd %-23s     
+#K TIME       = 19:44:19                hh:mm:ss   %-23s     
+#K PACKAGE    = apphot                  name       %-23s     
+#K TASK       = phot                    name       %-23s     
+#
+#K SCALE      = 1.                      units      %-23.7g   
+#K FWHMPSF    = 5.                      scaleunit  %-23.7g   
+#K EMISSION   = yes                     switch     %-23b     
+#K DATAMIN    = INDEF                   counts     %-23.7g   
+#K DATAMAX    = INDEF                   counts     %-23.7g   
+#K EXPOSURE   = ""                      keyword    %-23s     
+#K AIRMASS    = ""                      keyword    %-23s     
+#K FILTER     = ""                      keyword    %-23s     
+#K OBSTIME    = DATE                    keyword    %-23s     
+#
+#K NOISE      = poisson                 model      %-23s     
+#K SIGMA      = 4.8                     counts     %-23.7g   
+#K GAIN       = GAIN                    keyword    %-23s     
+#K EPADU      = 4.5                     e-/adu     %-23.7g   
+#K CCDREAD    = READNOIS                keyword    %-23s     
+#K READNOISE  = 25.                     e-         %-23.7g   
+#
+#K CALGORITHM = centroid                algorithm  %-23s     
+#K CBOXWIDTH  = 5.                      scaleunit  %-23.7g   
+#K CTHRESHOLD = 0.                      sigma      %-23.7g   
+#K MINSNRATIO = 1.                      number     %-23.7g   
+#K CMAXITER   = 10                      number     %-23d     
+#K MAXSHIFT   = 1.                      scaleunit  %-23.7g   
+#K CLEAN      = no                      switch     %-23b     
+#K RCLEAN     = 1.                      scaleunit  %-23.7g   
+#K RCLIP      = 2.                      scaleunit  %-23.7g   
+#K KCLEAN     = 3.                      sigma      %-23.7g   
+#
+#K SALGORITHM = centroid                algorithm  %-23s     
+#K ANNULUS    = 9.                      scaleunit  %-23.7g   
+#K DANNULUS   = 2.                      scaleunit  %-23.7g   
+#K SKYVALUE   = 0.                      counts     %-23.7g   
+#K KHIST      = 3.                      sigma      %-23.7g   
+#K BINSIZE    = 0.1                     sigma      %-23.7g   
+#K SMOOTH     = no                      switch     %-23b     
+#K SMAXITER   = 10                      number     %-23d     
+#K SLOCLIP    = 0.                      percent    %-23.7g   
+#K SHICLIP    = 0.                      percent    %-23.7g   
+#K SNREJECT   = 50                      number     %-23d     
+#K SLOREJECT  = 3.                      sigma      %-23.7g   
+#K SHIREJECT  = 3.                      sigma      %-23.7g   
+#K RGROW      = 0.                      scaleunit  %-23.7g   
+#
+#K WEIGHTING  = constant                model      %-23s     
+#K APERTURES  = 9                       scaleunit  %-23s     
+#K ZMAG       = 25.                     zeropoint  %-23.7g   
+#
+#N IMAGE               XINIT     YINIT     ID    COORDS                 LID    \
+#U imagename           pixels    pixels    ##    filename               ##     \
+#F %-23s               %-10.3f   %-10.3f   %-6d  %-23s                  %-6d    
+#
+#N XCENTER    YCENTER    XSHIFT  YSHIFT  XERR    YERR            CIER CERROR   \
+#U pixels     pixels     pixels  pixels  pixels  pixels          ##   cerrors  \
+#F %-14.3f    %-11.3f    %-8.3f  %-8.3f  %-8.3f  %-15.3f         %-5d %-9s      
+#
+#N MSKY           STDEV          SSKEW          NSKY   NSREJ     SIER SERROR   \
+#U counts         counts         counts         npix   npix      ##   serrors  \
+#F %-18.7g        %-15.7g        %-15.7g        %-7d   %-9d      %-5d %-9s      
+#
+#N ITIME          XAIRMASS       IFILTER                OTIME                  \
+#U timeunit       number         name                   timeunit               \
+#F %-18.7g        %-15.7g        %-23s                  %-23s                   
+#
+#N RAPERT   SUM           AREA       FLUX          MAG    MERR   PIER PERROR   \
+#U scale    counts        pixels     counts        mag    mag    ##   perrors  \
+#F %-12.2f  %-14.7g       %-11.7g    %-14.7g       %-7.3f %-6.3f %-5d %-9s      
+#
+PSNJ13522_2015-06-05-J.2626.703  217.993   9     snPSN13522.coords      9      \
+   2626.712   218.603    0.010   0.610   0.002   0.002          0    NoError   \
+   1183.829       35.74994       19.94156       119    9        0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     739612.9      254.8081   437963.7      10.896 0.003 0    NoError    
+PSNJ13522_2015-06-05-J.2049.202  337.982   10    snPSN13522.coords      10     \
+   2049.460   338.559    0.258   0.577   0.001   0.001          0    NoError   \
+   1390.936       80.89378       48.91211       119    7        0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     1390780.      255.0321   1036046.      9.962  0.002 0    NoError    
+PSNJ13522_2015-06-05-J.2447.890  1006.909  11    snPSN13522.coords      11     \
+   2448.086   1006.574   0.197   -0.335  0.007   0.005          0    NoError   \
+   1052.138       5.643472       -2.700974      121    3        0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     300263.4      254.5293   32463.42      13.722 0.006 0    NoError    
+PSNJ13522_2015-06-05-J.2181.320  1107.411  12    snPSN13522.coords      12     \
+   2181.500   1108.043   0.180   0.632   0.001   0.002          0    NoError   \
+   1268.325       49.80917       24.51095       109    15       0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     1003543.      254.5547   680684.7      10.418 0.002 0    NoError    
+PSNJ13522_2015-06-05-J.3037.808  1230.697  8     snPSN13522.coords      8      \
+   3037.937   1230.301   0.129   -0.396  0.002   0.002          0    NoError   \
+   1265.182       54.77024       29.60888       111    13       0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     946950.4      254.6086   624824.2      10.511 0.003 0    NoError    
+PSNJ13522_2015-06-05-J.1169.154  1299.817  14    snPSN13522.coords      14     \
+   1170.017   1299.161   0.864   -0.656  0.003   0.002          0    NoError   \
+   1181.342       37.69737       24.44188       98     30       0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     679341.9      254.942    378168.1      11.056 0.003 0    NoError    
+PSNJ13522_2015-06-05-J.1625.525  1325.860  13    snPSN13522.coords      13     \
+   1626.580   1327.018   1.055   1.158   0.001   0.003          107  BigShift  \
+   1870.604       253.8236       186.5816       89     34       0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     3436095.      254.4745   2960074.      8.822  0.003 0    NoError    
+PSNJ13522_2015-06-05-J.2022.006  1492.058  1     snPSN13522.coords      1      \
+   2022.055   1492.015   0.049   -0.043  0.005   0.005          0    NoError   \
+   1105.328       13.35168       4.260192       121    4        0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     364061.5      254.9804   82224.51      12.712 0.005 0    NoError    
+PSNJ13522_2015-06-05-J.2148.905  1784.604  6     snPSN13522.coords      6      \
+   2149.107   1785.048   0.202   0.444   0.006   0.006          0    NoError   \
+   1060.852       7.598897       -2.625724      122    5        0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     327804.8      254.9671   57322.35      13.104 0.005 0    NoError    
+PSNJ13522_2015-06-05-J.2037.741  1801.750  5     snPSN13522.coords      5      \
+   2037.621   1802.348   -0.120  0.599   0.005   0.005          0    NoError   \
+   1062.605       7.727533       3.318746       122    6        0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     333365.       254.8853   62522.65      13.010 0.004 0    NoError    
+PSNJ13522_2015-06-05-J.2473.423  1811.430  7     snPSN13522.coords      7      \
+   2473.530   1811.061   0.107   -0.369  0.002   0.002          0    NoError   \
+   1178.748       35.37786       18.55338       113    12       0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     707505.9      254.5463   407459.9      10.975 0.003 0    NoError    
+PSNJ13522_2015-06-05-J.1348.658  2358.216  4     snPSN13522.coords      4      \
+   1348.644   2358.954   -0.014  0.738   0.006   0.008          0    NoError   \
+   1052.542       5.626555       -1.900497      122    1        0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     300715.7      254.5004   32843.34      13.709 0.006 0    NoError    
+PSNJ13522_2015-06-05-J.2130.465  2607.254  3     snPSN13522.coords      3      \
+   2130.492   2607.516   0.027   0.261   0.001   0.001          0    NoError   \
+   1518.484       112.4491       67.70009       115    13       0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     1808793.      255.1482   1421354.      9.618  0.002 0    NoError    
+PSNJ13522_2015-06-05-J.1955.568  3124.237  2     snPSN13522.coords      2      \
+   1955.475   3124.710   -0.093  0.473   0.002   0.002          0    NoError   \
+   1144.917       24.64812       13.91717       117    10       0    NoError   \
+   1.             INDEF          INDEF                  2015-08-26T22:03:51    \
+   9.00     589041.8      254.7139   297415.5      11.317 0.003 0    NoError    

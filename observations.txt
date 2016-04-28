@@ -1,0 +1,23 @@
+Discovery
+
+PSN J13522 was discovered on three 40-s survey images taken by Xing Gao in Xingming Observatory with an unfiltered CCD on a Celestron C14 Schmidt-Cassegrain telescope. The object first appeared on Jan. 09.9, and was confirmed on Jan. 14.9; nothing was visible in images taken on Jan. 07 (limiting mag 19.5).
+
+
+SLOTIS photometry
+
+After discovery of PSN J13522, the field was added to the queue of the robotic Super-LOTIS 24-inch telescope (SLOTIS, Williams et al. 2008) on Kitt Peak for multifilter (B, V, R, and I) follow-up observations. Images were automatically calibrated using a custom pipeline by Peter Milne, and aperture photometry was performed manually. The photometry is summarized in Table 1, and an image of the SN field is presented in Figure 1.
+
+
+UKIRT JHK photometry
+
+All photometric data were collected using the UK Infrared Telescope's (UKIRT) WFCAM instrument (). The 'seeing', estimated from the full width at half-maximum intensity (FWHM) of stars on the CCD frame, varied between ~3-5 arcsec. Aperture photometry was performed manually, and the results are summarized in Table 2.
+
+
+MMT spectroscopy
+
+
+
+
+Berkeley spectroscopy
+
+

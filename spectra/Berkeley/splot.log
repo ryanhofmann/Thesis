@@ -1,0 +1,19 @@
+
+Mar 28 18:16 [psnj1352+3941-20150724.211-ui.dop.fits]: 
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  6555.649 0.6165013   473.052    -767.3
+avg:      0.663  rms:    0.01603   snr:    41.35
+avg:     0.5897  rms:    0.01405   snr:    41.97
+
+Mar 28 18:19 [psnj1352+3941-20150906.162-ui.dop.fits]: 
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  6558.545 0.3044288   362.393    -1191.
+avg:     0.3364  rms:    0.01587   snr:    21.20
+avg:     0.3243  rms:    0.00525   snr:    61.77
+avg:     0.3299  rms:   6.295E-4   snr:   524.00
+avg:       2.34  rms:     0.9096   snr:     2.57
+avg:      0.344  rms:    0.03197   snr:    10.76
+avg:     0.1926  rms:    0.04391   snr:     4.39
+avg:     0.3275  rms:    0.01098   snr:    29.82
+avg:     0.3136  rms:   0.008132   snr:    38.56
+avg:     0.3789  rms:    0.01114   snr:    34.00

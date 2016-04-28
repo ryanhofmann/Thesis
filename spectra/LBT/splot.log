@@ -1,0 +1,17 @@
+
+Mar 28 18:29 [PSNJ13522-2015-04-15-LBT_MODS-250_r.dop.fits]: PSNJ13522
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+   6987.16 8.138E-16 6.437E-14    -76.51
+   6988.55 7.989E-16 7.625E-14    -95.65
+  6987.131 7.782E-16 8.082E-14     -103.
+  6990.706 8.287E-16 6.499E-14    -78.04
+  6989.748 7.965E-16 7.295E-14    -90.17
+avg:  8.818E-16  rms:  9.025E-18   snr:    97.70
+avg:  8.807E-16  rms:  8.702E-18   snr:   101.21
+avg:  1.065E-15  rms:  1.794E-17   snr:    59.37
+avg:  1.087E-15  rms:  1.183E-17   snr:    91.91
+avg:  7.202E-16  rms:  1.476E-17   snr:    48.78
+
+Apr  7 16:37 [PSNJ13522-2015-04-15-LBT_MODS-250_r.fits]: PSNJ13522
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  7038.137 8.079E-16 7.298E-14    -90.17

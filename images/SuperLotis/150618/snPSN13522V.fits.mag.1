@@ -1,0 +1,145 @@
+#K IRAF       = NOAO/IRAFV2.16          version    %-23s     
+#K USER       = rhofmann                name       %-23s     
+#K HOST       = nimoy.as.arizona.edu    computer   %-23s     
+#K DATE       = 2015-12-11              yyyy-mm-dd %-23s     
+#K TIME       = 17:36:12                hh:mm:ss   %-23s     
+#K PACKAGE    = apphot                  name       %-23s     
+#K TASK       = phot                    name       %-23s     
+#
+#K SCALE      = 1.                      units      %-23.7g   
+#K FWHMPSF    = 7.7                     scaleunit  %-23.7g   
+#K EMISSION   = yes                     switch     %-23b     
+#K DATAMIN    = INDEF                   counts     %-23.7g   
+#K DATAMAX    = INDEF                   counts     %-23.7g   
+#K EXPOSURE   = EXPTIME                 keyword    %-23s     
+#K AIRMASS    = AIRMASS                 keyword    %-23s     
+#K FILTER     = FILTER                  keyword    %-23s     
+#K OBSTIME    = DATE                    keyword    %-23s     
+#
+#K NOISE      = poisson                 model      %-23s     
+#K SIGMA      = 1.5                     counts     %-23.7g   
+#K GAIN       = GAIN                    keyword    %-23s     
+#K EPADU      = 3.93                    e-/adu     %-23.7g   
+#K CCDREAD    = RDNOISE                 keyword    %-23s     
+#K READNOISE  = 11.59                   e-         %-23.7g   
+#
+#K CALGORITHM = centroid                algorithm  %-23s     
+#K CBOXWIDTH  = 5.                      scaleunit  %-23.7g   
+#K CTHRESHOLD = 0.                      sigma      %-23.7g   
+#K MINSNRATIO = 1.                      number     %-23.7g   
+#K CMAXITER   = 10                      number     %-23d     
+#K MAXSHIFT   = 1.                      scaleunit  %-23.7g   
+#K CLEAN      = no                      switch     %-23b     
+#K RCLEAN     = 1.                      scaleunit  %-23.7g   
+#K RCLIP      = 2.                      scaleunit  %-23.7g   
+#K KCLEAN     = 3.                      sigma      %-23.7g   
+#
+#K SALGORITHM = centroid                algorithm  %-23s     
+#K ANNULUS    = 9.                      scaleunit  %-23.7g   
+#K DANNULUS   = 2.                      scaleunit  %-23.7g   
+#K SKYVALUE   = 0.                      counts     %-23.7g   
+#K KHIST      = 3.                      sigma      %-23.7g   
+#K BINSIZE    = 0.1                     sigma      %-23.7g   
+#K SMOOTH     = no                      switch     %-23b     
+#K SMAXITER   = 10                      number     %-23d     
+#K SLOCLIP    = 0.                      percent    %-23.7g   
+#K SHICLIP    = 0.                      percent    %-23.7g   
+#K SNREJECT   = 50                      number     %-23d     
+#K SLOREJECT  = 3.                      sigma      %-23.7g   
+#K SHIREJECT  = 3.                      sigma      %-23.7g   
+#K RGROW      = 0.                      scaleunit  %-23.7g   
+#
+#K WEIGHTING  = constant                model      %-23s     
+#K APERTURES  = 9                       scaleunit  %-23s     
+#K ZMAG       = 25.                     zeropoint  %-23.7g   
+#
+#N IMAGE               XINIT     YINIT     ID    COORDS                 LID    \
+#U imagename           pixels    pixels    ##    filename               ##     \
+#F %-23s               %-10.3f   %-10.3f   %-6d  %-23s                  %-6d    
+#
+#N XCENTER    YCENTER    XSHIFT  YSHIFT  XERR    YERR            CIER CERROR   \
+#U pixels     pixels     pixels  pixels  pixels  pixels          ##   cerrors  \
+#F %-14.3f    %-11.3f    %-8.3f  %-8.3f  %-8.3f  %-15.3f         %-5d %-9s      
+#
+#N MSKY           STDEV          SSKEW          NSKY   NSREJ     SIER SERROR   \
+#U counts         counts         counts         npix   npix      ##   serrors  \
+#F %-18.7g        %-15.7g        %-15.7g        %-7d   %-9d      %-5d %-9s      
+#
+#N ITIME          XAIRMASS       IFILTER                OTIME                  \
+#U timeunit       number         name                   timeunit               \
+#F %-18.7g        %-15.7g        %-23s                  %-23s                   
+#
+#N RAPERT   SUM           AREA       FLUX          MAG    MERR   PIER PERROR   \
+#U scale    counts        pixels     counts        mag    mag    ##   perrors  \
+#F %-12.2f  %-14.7g       %-11.7g    %-14.7g       %-7.3f %-6.3f %-5d %-9s      
+#
+snPSN13522V.fits       501.667   953.882   9     snPSN13522.coords      9      \
+   500.796    952.961    -0.871  -0.921  0.009   0.010          0    NoError   \
+   66.80952       3.428282       2.144096       111    19       0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     62882.97      254.8525   45856.39      18.985 0.003 0    NoError    
+snPSN13522V.fits       546.373   1189.064  10    snPSN13522.coords      10     \
+   545.455    1188.430   -0.917  -0.634  0.007   0.009          0    NoError   \
+   71.55474       4.92087        3.171064       112    14       0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     90697.25      255.0025   72450.62      18.488 0.003 0    NoError    
+snPSN13522V.fits       820.478   1032.547  11    snPSN13522.coords      11     \
+   818.707    1032.129   -1.771  -0.418  0.029   0.042          107  BigShift  \
+   59.81923       1.449984       -0.5696087     120    4        0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     19591.28      254.6296   4359.53       21.540 0.013 0    NoError    
+snPSN13522V.fits       859.291   1141.401  12    snPSN13522.coords      12     \
+   858.050    1141.050   -1.241  -0.351  0.013   0.014          107  BigShift  \
+   63.10437       2.992002       1.739729       119    10       0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     49176.41      254.99     33085.43      19.339 0.004 0    NoError    
+snPSN13522V.fits       914.625   795.028   8     snPSN13522.coords      8      \
+   913.694    794.052    -0.931  -0.976  0.015   0.019          0    NoError   \
+   59.84451       2.052477       1.153307       123    1        0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     27427.87      254.6012   12191.39      20.423 0.007 0    NoError    
+snPSN13522V.fits       930.861   1553.635  14    snPSN13522.coords      14     \
+   929.239    1552.660   -1.622  -0.975  0.015   0.014          107  BigShift  \
+   60.24895       2.332991       1.151838       111    14       0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     38198.13      254.7319   22850.79      19.741 0.005 0    NoError    
+snPSN13522V.fits       944.123   1368.737  13    snPSN13522.coords      13     \
+   942.801    1368.014   -1.321  -0.723  0.004   0.005          107  BigShift  \
+   113.9254       16.85209       9.586747       114    17       0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     302315.2      254.8946   273276.2      17.047 0.002 0    NoError    
+snPSN13522V.fits       1013.571  1208.824  1     snPSN13522.coords      1      \
+   1012.727   1208.044   -0.844  -0.781  0.036   0.046          0    NoError   \
+   63.73592       3.674008       2.389599       109    15       0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     18884.64      254.7064   2650.699      22.080 0.045 0    NoError    
+snPSN13522V.fits       1133.660  1159.836  6     snPSN13522.coords      6      \
+   1132.319   1158.494   -1.341  -1.342  0.033   0.031          107  BigShift  \
+   55.4282        1.386739       0.7219998      124    4        0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     16320.15      254.7615   2199.178      22.283 0.022 0    NoError    
+snPSN13522V.fits       1139.929  1205.087  5     snPSN13522.coords      5      \
+   1138.749   1204.565   -1.181  -0.522  0.029   0.027          107  BigShift  \
+   56.28278       1.316903       -0.4265083     123    1        0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     20017.28      254.7081   5681.598      21.252 0.010 0    NoError    
+snPSN13522V.fits       1146.463  1028.534  7     snPSN13522.coords      7      \
+   1145.121   1027.996   -1.342  -0.539  0.011   0.012          107  BigShift  \
+   67.64971       3.451435       2.186336       112    15       0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     65792.38      254.9736   48543.49      18.923 0.003 0    NoError    
+snPSN13522V.fits       1361.554  1489.377  4     snPSN13522.coords      4      \
+   1360.210   1488.353   -1.344  -1.024  0.035   0.042          107  BigShift  \
+   57.20298       1.445253       0.7867721      119    4        0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     18625.82      254.6808   4057.314      21.618 0.014 0    NoError    
+snPSN13522V.fits       1467.252  1173.833  3     snPSN13522.coords      3      \
+   1466.080   1173.239   -1.172  -0.594  0.009   0.009          107  BigShift  \
+   71.70834       5.003595       2.518805       113    13       0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     96107.93      254.7432   77840.71      18.410 0.003 0    NoError    
+snPSN13522V.fits       1676.214  1249.003  2     snPSN13522.coords      2      \
+   1675.237   1248.189   -0.977  -0.814  0.009   0.011          0    NoError   \
+   63.49063       2.964748       1.538699       116    9        0    NoError   \
+   180.           1.14           V                      2015-06-19T19:06:42    \
+   9.00     56635.87      254.7462   40461.87      19.121 0.004 0    NoError    

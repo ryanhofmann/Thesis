@@ -1,0 +1,130 @@
+#K IRAF       = NOAO/IRAFV2.16          version    %-23s     
+#K USER       = rhofmann                name       %-23s     
+#K HOST       = nimoy.as.arizona.edu    computer   %-23s     
+#K DATE       = 2016-04-05              yyyy-mm-dd %-23s     
+#K TIME       = 17:40:56                hh:mm:ss   %-23s     
+#K PACKAGE    = apphot                  name       %-23s     
+#K TASK       = phot                    name       %-23s     
+#
+#K SCALE      = 1.                      units      %-23.7g   
+#K FWHMPSF    = 3.2                     scaleunit  %-23.7g   
+#K EMISSION   = yes                     switch     %-23b     
+#K DATAMIN    = INDEF                   counts     %-23.7g   
+#K DATAMAX    = INDEF                   counts     %-23.7g   
+#K EXPOSURE   = EXPTIME                 keyword    %-23s     
+#K AIRMASS    = AIRMASS                 keyword    %-23s     
+#K FILTER     = FILTER                  keyword    %-23s     
+#K OBSTIME    = DATE-OBS                keyword    %-23s     
+#
+#K NOISE      = poisson                 model      %-23s     
+#K SIGMA      = 6.08                    counts     %-23.7g   
+#K GAIN       = GAIN                    keyword    %-23s     
+#K EPADU      = 3.14                    e-/adu     %-23.7g   
+#K CCDREAD    = RDNOISE                 keyword    %-23s     
+#K READNOISE  = 6.5                     e-         %-23.7g   
+#
+#K CALGORITHM = centroid                algorithm  %-23s     
+#K CBOXWIDTH  = 5.                      scaleunit  %-23.7g   
+#K CTHRESHOLD = 0.                      sigma      %-23.7g   
+#K MINSNRATIO = 1.                      number     %-23.7g   
+#K CMAXITER   = 10                      number     %-23d     
+#K MAXSHIFT   = 1.                      scaleunit  %-23.7g   
+#K CLEAN      = no                      switch     %-23b     
+#K RCLEAN     = 1.                      scaleunit  %-23.7g   
+#K RCLIP      = 2.                      scaleunit  %-23.7g   
+#K KCLEAN     = 3.                      sigma      %-23.7g   
+#
+#K SALGORITHM = centroid                algorithm  %-23s     
+#K ANNULUS    = 8.                      scaleunit  %-23.7g   
+#K DANNULUS   = 4.                      scaleunit  %-23.7g   
+#K SKYVALUE   = 0.                      counts     %-23.7g   
+#K KHIST      = 3.                      sigma      %-23.7g   
+#K BINSIZE    = 0.1                     sigma      %-23.7g   
+#K SMOOTH     = no                      switch     %-23b     
+#K SMAXITER   = 10                      number     %-23d     
+#K SLOCLIP    = 0.                      percent    %-23.7g   
+#K SHICLIP    = 0.                      percent    %-23.7g   
+#K SNREJECT   = 50                      number     %-23d     
+#K SLOREJECT  = 3.                      sigma      %-23.7g   
+#K SHIREJECT  = 3.                      sigma      %-23.7g   
+#K RGROW      = 0.                      scaleunit  %-23.7g   
+#
+#K WEIGHTING  = constant                model      %-23s     
+#K APERTURES  = 8                       scaleunit  %-23s     
+#K ZMAG       = 25.                     zeropoint  %-23.7g   
+#
+#N IMAGE               XINIT     YINIT     ID    COORDS                 LID    \
+#U imagename           pixels    pixels    ##    filename               ##     \
+#F %-23s               %-10.3f   %-10.3f   %-6d  %-23s                  %-6d    
+#
+#N XCENTER    YCENTER    XSHIFT  YSHIFT  XERR    YERR            CIER CERROR   \
+#U pixels     pixels     pixels  pixels  pixels  pixels          ##   cerrors  \
+#F %-14.3f    %-11.3f    %-8.3f  %-8.3f  %-8.3f  %-15.3f         %-5d %-9s      
+#
+#N MSKY           STDEV          SSKEW          NSKY   NSREJ     SIER SERROR   \
+#U counts         counts         counts         npix   npix      ##   serrors  \
+#F %-18.7g        %-15.7g        %-15.7g        %-7d   %-9d      %-5d %-9s      
+#
+#N ITIME          XAIRMASS       IFILTER                OTIME                  \
+#U timeunit       number         name                   timeunit               \
+#F %-18.7g        %-15.7g        %-23s                  %-23s                   
+#
+#N RAPERT   SUM           AREA       FLUX          MAG    MERR   PIER PERROR   \
+#U scale    counts        pixels     counts        mag    mag    ##   perrors  \
+#F %-12.2f  %-14.7g       %-11.7g    %-14.7g       %-7.3f %-6.3f %-5d %-9s      
+#
+PSNJ13522-2016-03-17-V.1151.064  306.730   7     snPSN13522.coords      7      \
+   1151.353   306.342    0.288   -0.387  0.001   0.001          0    NoError   \
+   244.8626       14.63389       9.435883       224    26       0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     406689.4      201.0652   357456.       16.315 0.001 0    NoError    
+PSNJ13522-2016-03-17-V.1094.987  579.330   8     snPSN13522.coords      8      \
+   1095.395   579.836    0.408   0.506   0.001   0.001          0    NoError   \
+   267.1433       22.26402       14.25845       223    29       0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     632774.8      201.3814   578977.1      15.791 0.001 0    NoError    
+PSNJ13522-2016-03-17-V.779.656   392.328   9     snPSN13522.coords      9      \
+   779.038    392.757    -0.619  0.429   0.005   0.004          0    NoError   \
+   214.2245       7.349175       0.7442582      250    1        0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     80660.51      201.3627   37523.7       18.762 0.005 0    NoError    
+PSNJ13522-2016-03-17-V.731.931   518.957   10    snPSN13522.coords      10     \
+   731.406    519.391    -0.525  0.434   0.001   0.001          0    NoError   \
+   242.3677       13.60003       9.418734       240    11       0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     313439.5      201.0655   264707.8      16.641 0.002 0    NoError    
+PSNJ13522-2016-03-17-V.677.142   113.894   6     snPSN13522.coords      6      \
+   676.418    114.373    -0.723  0.479   0.002   0.002          0    NoError   \
+   218.8585       9.627678       6.305459       224    28       0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     153282.       201.096    109270.4      17.602 0.003 0    NoError    
+PSNJ13522-2016-03-17-V.645.904   998.949   11    snPSN13522.coords      11     \
+   646.221    999.043    0.317   0.094   0.003   0.002          0    NoError   \
+   233.4575       11.46199       6.250806       244    6        0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     228702.       201.3188   181702.6      17.050 0.002 0    NoError    
+PSNJ13522-2016-03-17-V.554.088   596.197   1     snPSN13522.coords      1      \
+   554.394    595.624    0.306   -0.573  0.009   0.009          0    NoError   \
+   261.9398       22.50526       17.64414       208    41       0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     60467.57      201.0705   7799.215      20.468 0.063 0    NoError    
+PSNJ13522-2016-03-17-V.414.150   536.975   4     snPSN13522.coords      4      \
+   415.476    536.438    1.326   -0.537  0.005   0.005          107  BigShift  \
+   211.7563       7.476431       -2.945595      244    1        0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     62562.1       200.9791   20003.5       19.445 0.009 0    NoError    
+PSNJ13522-2016-03-17-V.406.139   589.783   3     snPSN13522.coords      3      \
+   407.396    589.222    1.257   -0.561  0.003   0.004          107  BigShift  \
+   216.1332       7.393809       -4.016144      248    1        0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     91469.74      201.2639   47969.92      18.496 0.004 0    NoError    
+PSNJ13522-2016-03-17-V.401.883   383.055   5     snPSN13522.coords      5      \
+   402.631    382.734    0.748   -0.322  0.001   0.001          0    NoError   \
+   247.3901       17.74484       11.24437       231    20       0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     452498.       201.1876   402726.2      16.185 0.001 0    NoError    
+PSNJ13522-2016-03-17-V.145.344   915.627   2     snPSN13522.coords      2      \
+   144.530    917.328    -0.814  1.701   0.004   0.005          107  BigShift  \
+   215.5712       7.248632       -2.797592      251    1        0    NoError   \
+   120.           1.03           Harris-V               INDEF                  \
+   8.00     74033.13      201.2183   30656.25      18.982 0.006 0    NoError    

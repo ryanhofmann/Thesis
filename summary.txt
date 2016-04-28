@@ -1,0 +1,25 @@
+PROPERTIES
+Galaxy: NGC 5337
+Galaxy type: Sab
+Redshift: 0.007007
+Distance (Mpc): 36.39
+Dist. modulus: 32.8
+Extinction (V mag): 0.038
+Reddening E(B-V): 0.013
+Discovery date: 14 January 2015
+Discovery reference:
+  URL: http://www.cbat.eps.harvard.edu/unconf/followups/J13522411+3941286.html
+  Authors: Zhangwei Jin and Xing Gao
+First report of spectral type:
+  Date: 16 January 2015
+  Type: IIn
+  URL: http://www.astronomerstelegram.org/?read=6939
+  Authors: Jujia Zhang and Xiaofeng Wang
+Discovery magnitude (unfiltered):
+  Apparent: 16.9
+  Absolute: -15.9
+Anomalies: recent color shift
+
+SUMMARY PARAGRAPH
+
+PSN J13522 was discovered at R = 16.9 mag by Zhangwei Jin and Xing Gao on 2015 Jan. 14.9 in NGC 5337, and was classified as having a type IIn spectrum on 2015 Jan. 16.9. At a redshift of z = 0.007007 (2165 km/s), this corresponds to a distance of 36.39 Mpc (m - M = 32.8 mag), with a Milky Way line-of-sight extinction Av = 0.038 mag and reddening E(B - V) = 0.013 mag.
