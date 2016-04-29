@@ -804,7 +804,6 @@ Next time:
   Plot spectra properties vs time
 
 
-
 27 April
 
 Current tasks:
@@ -816,4 +815,40 @@ Today summary:
   Corrected plotting bugs
   Created final plots: full, H_alpha, H_alpha_narrow, sodium
   Plotted H-alpha stats: EqWidth, FWHM
+  Measured absorption velocity, peak-to-trough, for MMT spectra
+  Plotted all H-alpha stats
+
+  Uploaded all non-FITS files to GitHub repository
+    https://github.com/ryanhofmann/Thesis.git
+
+Next time:
+  Work on paper
+
+
+28 April
+
+Current tasks:
+  Calculate integrated luminosity
+    R band, V-I average?
+    Include discovery data with caveats
+  Work on paper
+    Finish writing observations section
+    Describe reduction and analysis (what I did)
+    Discussion section (interpreting the data)
+
+Today summary:
+  Calculated integrated luminosity: L_int = [3.98 +/- 0.10] * 10^49 erg
+  Measured continuum level near H-alpha
+    Recorded in H-alpha_stats.txt
+  Began preparing presentation for Friday ceremony
+
+Next time:
+  Work on paper
+    Derive physical parameters of supernova
+      Mass of circumstellar material
+      Ejected mass/momentum/energy
+      Total energy
+    Write observations and reductions
+
+
 

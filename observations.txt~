@@ -5,7 +5,7 @@ PSN J13522 was discovered on three 40-s survey images taken by Xing Gao in Xingm
 
 SLOTIS photometry
 
-After discovery of PSN J13522, the field was added to the queue of the robotic Super-LOTIS 24-inch telescope (SLOTIS, Williams et al. 2008) on Kitt Peak for multifilter (B, V, R, and I) follow-up observations. Images were automatically calibrated using a custom pipeline by Peter Milne, and aperture photometry was performed manually. The photometry is summarized in Table 1.
+After discovery of PSN J13522, the field was added to the queue of the robotic Super-LOTIS 24-inch telescope (SLOTIS, Williams et al. 2008) on Kitt Peak for multifilter (B, V, R, and I) follow-up observations. Images were automatically calibrated using a custom pipeline by Peter Milne, and aperture photometry was performed manually. The photometry is summarized in Table 1, and an image of the SN field is presented in Figure 1.
 
 
 UKIRT JHK photometry
@@ -19,5 +19,15 @@ MMT spectroscopy
 
 
 Berkeley spectroscopy
+
+
+
+
+LBT spectroscopy
+
+
+
+
+Bok spectroscopy
 
 

@@ -28,10 +28,8 @@ def specplot(xmin=0, xmax=0, vel=0, narrow=0, scale='lin', shift=0, stretch=0, x
       continue
     arr = np.genfromtxt(spectra[i])
     xyarr.append(arr)
-  print no
   j = 0
   for ind in no:
-    print ind
     del delta[ind-j]
     del c[ind-j]
     del days[ind-j]
@@ -41,9 +39,7 @@ def specplot(xmin=0, xmax=0, vel=0, narrow=0, scale='lin', shift=0, stretch=0, x
   for i in range(0, len(xyarr)):
 #    wmax = np.argmax(xyarr[i], axis=0)[1]
 #    delta = xyarr[i][wmax,0] - 6563.
-    print delta[i]
     xyarr[i][:,0] = np.subtract(xyarr[i][:,0], delta[i])
-  print len(xyarr)
 
   # Normalize spectra
   cal = 6300.
@@ -51,9 +47,8 @@ def specplot(xmin=0, xmax=0, vel=0, narrow=0, scale='lin', shift=0, stretch=0, x
   for i in range(0, len(xyarr)):
     idx = np.abs(xyarr[i][:, 0] - cal).argmin()
     idxmin, idxmax = idx - 5, idx + 5
-    xmean = np.mean(xyarr[i][idxmin:idxmax, 1])
-    xyarr[i][:, 1] /= xmean
-  print len(xyarr)
+    ymean = np.mean(xyarr[i][idxmin:idxmax, 1])
+    xyarr[i][:, 1] /= ymean
 
   # Format spectra for plotting
   if stretch > 0:
@@ -104,5 +99,7 @@ def specplot(xmin=0, xmax=0, vel=0, narrow=0, scale='lin', shift=0, stretch=0, x
   # Label spectra
   if shift > 0:
     for i in range(0, len(xyarr)):
-      plt.text(x_label, shift**(d_label*i+y_label), str(days[i]))
+      y_label = np.mean(xyarr[i][:, 1])
+      print x_label, y_label
+      plt.text(x_label, y_label, str(days[i]))      
   plt.show()

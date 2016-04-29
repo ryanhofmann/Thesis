@@ -5,12 +5,17 @@ PSN J13522 was discovered on three 40-s survey images taken by Xing Gao in Xingm
 
 SLOTIS photometry
 
-After discovery of PSN J13522, the field was added to the queue of the robotic Super-LOTIS 24-inch telescope (SLOTIS, Williams et al. 2008) on Kitt Peak for multifilter (B, V, R, and I) follow-up observations. Images were automatically calibrated using a custom pipeline by Peter Milne, and aperture photometry was performed manually. The photometry is summarized in Table 1, and an image of the SN field is presented in Figure 1.
+After discovery of PSN J13522, the field was added to the queue of the robotic Super-LOTIS 24-inch telescope (SLOTIS, Williams et al. 2008) on Kitt Peak for multifilter (B, V, R, and I) follow-up observations. Seeing varied between ~2-4 arcsec. Images were automatically calibrated using a custom pipeline by Peter Milne, and aperture photometry was performed manually. The magnitudes were calibrated using the reference star list from the SLOTIS pipeline, shown in Table 4. The photometry is summarized in Table 1.
 
 
 UKIRT JHK photometry
 
-All photometric data were collected using the UK Infrared Telescope's (UKIRT) WFCAM instrument (). The 'seeing', estimated from the full width at half-maximum intensity (FWHM) of stars on the CCD frame, varied between ~3-5 arcsec. Aperture photometry was performed manually, and the results are summarized in Table 2.
+All photometric data were collected using the UK Infrared Telescope's (UKIRT) WFCAM instrument (). The 'seeing', estimated from the full width at half-maximum intensity (FWHM) of stars on the CCD frame, varied between ~1-2 arcsec. Aperture photometry was performed manually, and the magnitudes were calibrated using the same reference stars from SLOTIS. The results are summarized in Table 2.
+
+
+Kuiper BVR photometry
+
+One set of images was recorded using the Mont4k CCD on the 61" Kuiper telescope on Mt. Bigelow. Seeing was <0.5 arcsec. Aperture photometry was performed manually. Some of the reference stars were outside the field of view or saturated, and were thus excluded from the reduction. The results are summarized in Table 3.
 
 
 MMT spectroscopy
@@ -19,5 +24,15 @@ MMT spectroscopy
 
 
 Berkeley spectroscopy
+
+
+
+
+LBT spectroscopy
+
+
+
+
+Bok spectroscopy
 
 
