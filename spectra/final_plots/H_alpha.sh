@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 python <<plot
 from plot import specplot

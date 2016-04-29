@@ -19,7 +19,7 @@ def specplot(xmin=0, xmax=0, vel=0, narrow=0, scale='lin', shift=0, stretch=0, x
   # Read spectra into arrays
   xyarr = []
   delta = [-2.7, 1.0, -3.2, -3.6, -0.1, -1.0, 0.0, -2.5, 0.0]
-  c = ['darkred', 'red', 'orange', 'gold', 'green', 'cyan', 'blue', 'purple', 'magenta']
+  c = ['darkred', 'red', 'orange', 'y', 'green', 'cyan', 'blue', 'purple', 'magenta']
   days = [67, 91, 106, 116, 149, 191, 235, 400, 458]
   no = []
   for i in range(len(spectra)):
@@ -53,7 +53,7 @@ def specplot(xmin=0, xmax=0, vel=0, narrow=0, scale='lin', shift=0, stretch=0, x
   # Format spectra for plotting
   if stretch > 0:
     for i in range(0, len(xyarr)):
-      xyarr[i][:,1] = 1. + (xyarr[i][:,1] - 1.)/(stretch*(i+1))
+      xyarr[i][:,1] = 1. + (xyarr[i][:,1] - 1.)*(stretch*(i+1))
   if shift > 0:
     base = []
     for i in range(0, len(xyarr)):
@@ -99,5 +99,5 @@ def specplot(xmin=0, xmax=0, vel=0, narrow=0, scale='lin', shift=0, stretch=0, x
   # Label spectra
   if shift > 0:
     for i in range(0, len(xyarr)):
-      plt.text(x_label, shift**(d_label*i+y_label), str(days[i]))
+      plt.text(x_label, shift**(d_label*i+y_label), str(days[i]), color=c[i])
   plt.show()
