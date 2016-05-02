@@ -10,29 +10,14 @@ After discovery of PSN J13522, the field was added to the queue of the robotic S
 
 UKIRT JHK photometry
 
-All photometric data were collected using the UK Infrared Telescope's (UKIRT) WFCAM instrument (). The 'seeing', estimated from the full width at half-maximum intensity (FWHM) of stars on the CCD frame, varied between ~1-2 arcsec. Aperture photometry was performed manually, and the magnitudes were calibrated using the same reference stars from SLOTIS. The results are summarized in Table 2.
+Three sets of JHK images were collected during the same period as the SLOTIS data, using the UK Infrared Telescope's (UKIRT) WFCAM instrument (). The 'seeing', estimated from the full width at half-maximum intensity (FWHM) of stars on the CCD frame, varied between ~1-2 arcsec. Aperture photometry was performed manually, and the magnitudes were calibrated using the same reference stars from SLOTIS. The results are summarized in Table 2.
 
 
 Kuiper BVR photometry
 
-One set of images was recorded using the Mont4k CCD on the 61" Kuiper telescope on Mt. Bigelow. Seeing was <0.5 arcsec. Aperture photometry was performed manually. Some of the reference stars were outside the field of view or saturated, and were thus excluded from the reduction. The results are summarized in Table 3.
+One set of images was recorded at a late time using the Mont4k CCD on the 61" Kuiper telescope on Mt. Bigelow. Seeing was <0.5 arcsec. Aperture photometry was performed manually. Some of the reference stars were outside the field of view or saturated, and were thus excluded from the reduction. The results are summarized in Table 3.
 
 
-MMT spectroscopy
+Spectroscopy
 
-
-
-
-Berkeley spectroscopy
-
-
-
-
-LBT spectroscopy
-
-
-
-
-Bok spectroscopy
-
-
+Five high-resolution spectra were obtained using the Bluechannel (BC) spectrometer on the MMT, four of which were taken during the first six months, while the fifth was taken much later. One early spectrum was obtained using the Multi Object Double Spectrograph (MODS) on the LBT. Two broad spectra were obtained using the Kast spectrograph on the Shane telescope at Lick Observatory. Finally, one late-time spectrum was obtained using the Boller & Chvens spectrograph on the Bok 90-inch telescope on Kitt Peak. All spectra were Doppler-corrected, and the broad spectra were also corrected for reddening. Details of the spectra are summarized in Table 4.

@@ -1,0 +1,22 @@
+Light curve
+
+General features
+The multiband light curves of PSN J13522411 are shown in Fig. 2. No data is available around the time of peak luminosity, so the exact peak date could be anywhere between ~10-50 days. Likewise, the later portion of the light curve has a >250 d gap where no data was taken, so we can only assume that the decline during this period is basically linear. Despite the lack of sampling, it is clear that the SN is decaying quite slowly: in ~300 days, the R brightness only decreased by ~1.1 mag.
+
+Total emitted energy
+If we assume that the R-band brightness is roughly equivalent to the bolometric magnitude, we can transform the R magnitudes into luminosities and integrate over time to get an estimate of the total radiated energy. Performing this calculation, we estimate the total emitted energy to be ~4 x 10^49 erg. Because we were not able to obtain any data during the period around maximum brightness, this value is probably a lower limit, putting the true value closer to ~10^50 erg.
+
+
+Spectral evolution
+
+General properties
+Besides the H-alpha line discussed below, the spectra from Lick Observatory also show H-beta emission (weakly visible in Bok), bright emission lines in the near-infrared around ~8500 angstroms, and broad helium emission lines. The helium line at 5876 angstroms is bisected by strong absorption from the sodium D doublet. The H-alpha line also features several small absorption lines between ~6450-6525 angstroms.
+
+Continuum
+Initially, the continuum of PSN J13522411 was flat over the range of the MMT, while the LBT spectrum showed emission and absorption features in the near-infrared. Over the next few months, the continuum became more red, as seen in both the MMT and Lick spectra. This trend reversed sometime around 400 days after discovery, as the last MMT spectrum seems less diagonal, while the final spectrum from Bok has a blue continuum with a clear peak around ~5000 angstroms, implying an effective temperature of ~5800 K.
+
+H-alpha line evolution
+Initially, the broad H-alpha line is symmetrical with a FWHM of ~1400 km/s, with Lorentzian wings extending out to ~+/-5000 km/s. On top of the broad component is a narrow P-Cygni feature, predominately emission, with a Gaussian FWHM of ~50 km/s, about the resolution of the grating. As time progresses, the broad emission increases and becomes more asymmetrical and humped until ~200 d after discovery, after which the H-alpha flux starts to decrease. The P-Cygni feature gradually transitions from mostly emission to almost all absorption, causing the appearance of a double peak in the broad emission. The FWHM of the broad emission rises rapidly, peaks around ~200 d after discovery, then declines more gradually. The peak-to-trough width of the P-Cygni feature remains roughly constant at ~70 km/s, just over the resolution of the grating.
+
+CSM properties
+Taking the half-width of the broad H-alpha emission as representative of the shock velocity, we estimate the radius of the CSM to be ~80-90 AU. If we assume that the half-width of the narrow emission line indicates the velocity of the CSM, we arrive at an upper age limit of ~10 years. The low velocity of the pre-SN material indicates that the progenitor was most likely a red or yellow supergiant (Smith 2015), rather than a Wolf-Rayet star or luminous blue variable (LBV).
