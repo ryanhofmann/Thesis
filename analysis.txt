@@ -4,7 +4,7 @@ General features
 The multiband light curves of PSN J13522411 are shown in Fig. 2. No data is available around the time of peak luminosity, so the exact peak date could be anywhere between ~10-50 days. Likewise, the later portion of the light curve has a >250 d gap where no data was taken, so we can only assume that the decline during this period is basically linear. Despite the lack of sampling, it is clear that the SN is decaying quite slowly: in ~300 days, the R brightness only decreased by ~1.1 mag.
 
 Total emitted energy
-If we assume that the R-band brightness is roughly equivalent to the bolometric magnitude, we can transform the R magnitudes into luminosities and integrate over time to get an estimate of the total radiated energy. Performing this calculation, we estimate the total emitted energy to be ~4 x 10^49 erg. Because we were not able to obtain any data during the period around maximum brightness, this value is probably a lower limit, putting the true value closer to ~10^50 erg.
+If we assume that the R-band brightness is roughly equivalent to the bolometric magnitude, we can transform the R magnitudes into luminosities and integrate over time to get an estimate of the total radiated energy. Performing this calculation (Aretxaga 2013), we estimate the total emitted energy to be ~4 x 10^49 erg. Because we were not able to obtain any data during the period around maximum brightness, this value is probably a lower limit, putting the true value closer to ~10^50 erg.
 
 
 Spectral evolution
