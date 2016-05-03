@@ -36,6 +36,13 @@ def plot(infile, multi=1):
     ind = np.where(y[:, single] != 0)
     xi, yi, xierr, yierr = x[ind], y[:, single][ind], xerr[ind], yerr[:, single][ind]
     ax1.errorbar(xi, yi, yierr, xierr, marker='o', linestyle='-', color='red')
+
+  # Plot spectra dates
+  spec_dates = np.array([67, 91, 106, 116, 149, 191, 235, 400, 458])
+  spec_height = np.zeros(len(spec_dates)) + ymin + 0.5*pad
+  plt.plot(spec_dates, spec_height, marker='s', linestyle='None', color='brown')
+
+  # Format axes and display
   ax1.set_xlabel('Days since discovery')
   ax1.set_ylabel('Apparent magnitude')
   ax1.set_ylim(ymax, ymin)

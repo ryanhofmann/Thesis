@@ -851,4 +851,56 @@ Next time:
     Write observations and reductions
 
 
+29 March to 1 May
 
+Current tasks:
+  Work on paper
+    Derive physical parameters of supernova
+    Write observations and reductions
+
+Today summary:
+  Drafted text for paper
+  Installed LaTeX
+  Created draft pdf
+    Some formatting issues
+    Questions about spectral lines
+
+Next time:
+  Discuss with Nathan
+  Finish drafting paper
+
+
+2 May
+
+Current tasks:
+  Discuss questions with Nathan
+  Finish drafting paper
+
+Today summary:
+  Talked with Nathan
+    For Wednesday:
+      Add SLOTIS data
+      Mark spectra dates on light curve
+      Measure extinction from sodium eq. width
+      Use altaffiltext for single affiliation, U of A
+    For future:
+      Compare photometric reduction methods, me vs pipeline
+      Label features in spectra
+        Telluric lines
+        Calcium triplet
+        Iron lines (blue end)
+      Discuss spectral evolution in terms of photosphere and reverse shock
+  Added late-time SLOTIS data to main light curve
+  Created light curve copy with all pipeline-reduced SLOTIS data
+  Added spectra dates to light curve
+  Measured equvalent width of sodium absorption lines
+    D1: 1.13
+    D2: 1.41
+    D1+D2: 2.52
+  Estimated host reddening from Poznanski fig. 5
+    D1 function: m = 2.8 AA/mag, b = 0.03 AA
+    E(D1) = (1.13 - 0.03)/2.8 = 0.39 mag
+    D2 function: m = 3.4 AA/mag, b = 0.08 AA
+    E(D2) = (1.41 - 0.08)/3.4 = 0.39 mag
+    E(B-V)_host = 0.39 mag
+  

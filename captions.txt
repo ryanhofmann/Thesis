@@ -8,6 +8,6 @@ H-alpha_stats: Properties of the H-alpha line, plotted over time. Top left: Equi
 
 Kuiper_R: R-band image of NGC 5337 taken on 2016 March 17 with the Kuiper 61-inch telescope. PSN J13522411 is indicated by the arrow. The repeating vertical lines are bad columns.
 
-multi_full: Photometric data for PSN J13522411. SLOTIS data in B, V, R, and I are plotted around ~100-160 days in blue, green, red, and cyan, respectively. The discovery magnitude is plotted in red at far left, and the Kuiper data are plotted at the far right. UKIRT data in J, H, and K are plotted in magenta, yellow, and black, respectively. All magnitudes have been corrected for Milky Way reddening.
+multi_full: Photometric data for PSN J13522411. SLOTIS data in B, V, R, and I are plotted around ~100-160 days in blue, green, red, and cyan, respectively. The discovery magnitude is plotted in red at far left, and the Kuiper data are plotted at the far right. UKIRT data in J, H, and K are plotted in magenta, yellow, and black, respectively. Dates for which spectral data are available are marked in brown at the top. All magnitudes have been corrected for Milky Way reddening.
 
-sodium: Helium emission with strong sodium absorption. The sharp spike at left in the top spectrum is likely a bad pixel.
+sodium: Sodium emission with strong doublet absorption. The sharp spike at left in the top spectrum is likely a bad pixel.
