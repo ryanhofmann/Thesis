@@ -4,7 +4,9 @@ Filippenko A. V., 1997, ARA&A, 35, 309
 Fontaine G., 2014, ASP Conference Series, 481, 19
 Fransson, C. et al., 2015, The Astrophysical Journal Letters, 806, L19
 Hodgkin S. T. et al., 2009, MNRAS 394, 675
+Jin Z., Gao X., 2015, CBAT "Transient Object Followup Reports", PSN J13522411+3941286
 Miller J. S., Stone R. P. S., 1993, Lick Obs. Tech. Rep. 66, Lick Obs., Santa Cruz
 Poznanski D. et al., 2012, MNRAS, 426, 1465
 Smith N. et al., 2015, MNRAS, 449, 1876
 Williams G. G. et al., 2008, AIP Conference Proceedings, 1000, 535
+Zhang J., Wang X., 2015, ATel, 6939

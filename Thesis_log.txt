@@ -903,4 +903,21 @@ Today summary:
     D2 function: m = 3.4 AA/mag, b = 0.08 AA
     E(D2) = (1.41 - 0.08)/3.4 = 0.39 mag
     E(B-V)_host = 0.39 mag
+  Added figures and captions
+
+Next time:
+  Add tables
+  Final revisions for submission to Honors College
+
+
+3 May
+
+Current tasks:
+  Add tables
+  Final revisions for submission to Honors College
+
+Today summary:
+  Downloaded Nathan's example with table
+  Added tables for photometry and spectra
+  Adjusted postion and format
   
