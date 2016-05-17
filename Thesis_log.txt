@@ -920,4 +920,27 @@ Today summary:
   Downloaded Nathan's example with table
   Added tables for photometry and spectra
   Adjusted postion and format
-  
+  Final submission complete!
+
+Next time:
+  Discuss next steps with Nathan
+  Begin revisions for publication
+
+
+15 May
+
+Current tasks:
+  Work on revisions as discussed with Nathan
+
+Today summary:
+  Modified Kuiper image
+    1:1 zoom, bold lines and text, labelled stars 4, 5, 10, 11
+    Overwrote ../Kuiper/Kuiper_R.jpeg
+
+Next time:
+  Change LaTeX format to MNRAS
+  Modify tables
+  Modify and label light curves
+
+
+

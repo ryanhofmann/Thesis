@@ -1,0 +1,12 @@
+# Region file format: DS9 version 4.1
+# Filename: /home/ryan/Desktop/Thesis/images/Kuiper/PSNJ13522-2016-03-17-R.fits
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+# vector(208.10033,39.696758,18",270) vector=1 color=black width=2 font="helvetica 12 bold roman" text={PSN J13522411}
+line(208.12092,39.676228,208.09927,39.676229) # line=0 0 color=black width=2 font="helvetica 12 bold roman" text={1'}
+# compass(208.12143,39.696739,27.315738") compass=fk5 {N} {E} 1 1 color=black width=2 font="helvetica 12 bold roman"
+# text(208.12419,39.691194) textangle=0.44978 color=black font="helvetica 12 bold roman" text={4}
+# text(208.1228,39.685299) color=black font="helvetica 12 bold roman" text={5}
+# text(208.12479,39.667253) color=black font="helvetica 12 bold roman" text={6}
+# text(208.06742,39.668606) color=black font="helvetica 12 bold roman" text={10}
+# text(208.07525,39.683813) color=black font="helvetica 12 bold roman" text={11}
