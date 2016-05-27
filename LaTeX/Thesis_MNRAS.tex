@@ -1,24 +1,55 @@
-%% Format in MNRAS style
-\documentclass[iop]{mnras}
-\usepackage{graphicx}
-\setcounter{secnumdepth}{3}
+% Format in MNRAS style
+\documentclass[a4paper,fleqn,usenatbib]{mnras}
 
+% Times font
+\usepackage{newtxtext,newtxmath}
+
+% Vector fonts
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+
+% Include graphics
+\usepackage{graphicx}	% Including figure files
+
+%%%%%%%%%%%%%%%%%%% TITLE PAGE %%%%%%%%%%%%%%%%%%%
+
+\title[SN IIn Archetype J13522411]{The Archetypal Type IIn Supernova J13522411}
+
+\author[R. Hofmann and N. Smith]{
+Ryan Hofmann$^{1}$
+and Nathan Smith$^{1}$
+\\
+% Affiliations
+$^{1}$Department of Astronomy, University of Arizona
+}
+
+% These dates will be filled out by the publisher
+\date{Accepted XXX. Received YYY; in original form ZZZ}
+
+% Enter the current year, for the copyright statements etc.
+\pubyear{2016}
+
+% Don't change these lines
 \begin{document}
+\label{firstpage}
+\pagerange{\pageref{firstpage}--\pageref{lastpage}}
+\maketitle
 
-%% Title
-\title{Observations of the Type IIn SN J13522411}
-
-%% Authors and affiliations
-\author{Ryan Hofmann and Nathan Smith}
-\affil{Steward Observatory, University of Arizona}
-
-%% Abstract
+% Abstract of the paper
 \begin{abstract}
 We present visible and near-IR photometry and spectra of the type IIn supernova PSN J13522411. The light curve indicates a peak $<50$ days after discovery around $M = -17$, followed by a slow decline. Spectra show strong hydrogen and helium emission that peaks $\sim200$ d after discovery, with a P-Cygni profile that becomes more absorptive as time progresses. We determine that the CSM is in the form of a slow, dense stellar wind that has remained steady for $\>30$ years. The low velocity of the wind, $\approx70$ km/s, implies that the progenitor was probably a red or yellow supergiant. From the light curve, we estimate the total radiated energy to be $\sim10^{50}$ erg. Further details of the explosion will be determined as time allows.
 \end{abstract}
 
-%% Introduction
+% Select between one and six entries from the list of approved keywords.
+% Don't make up new ones.
+\begin{keywords}
+supernovae -- winds -- shock waves
+\end{keywords}
+
+%%%%%%%%%%%%%%%%% BODY OF PAPER %%%%%%%%%%%%%%%%%%
+
 \section{Introduction} \label{intro}
+
 Understanding the explosive deaths of massive stars as supernovae is an important area of astrophysical research, as it is through this process that heavy elements are formed and dispersed into the interstellar medium. The expanding shocks from supernovae are also a key player in initiating and ending local star formation, as well as driving galactic winds. One of the more interesting aspects of these phenomena, and one that is still not well understood, is how supernovae interact with their environments. A striking example of this interaction is the class SNe IIn, which have narrow emission lines and slowly declining light curves \citep{Fil97}.
 
 Most of the peculiar features of SNe IIn can be explained by a shell of dense circumstellar material ejected from the star before it exploded. Initially after the star explodes, intense UV- and X-ray radiation from the hot forward shock photoionize the slow-moving CSM, producing narrow-line emission with a Lorentzian profile. Later, the rapidly expanding shock collides with the CSM, causing broad emission with a line profile that depends on the distribution of the CSM.
@@ -31,7 +62,7 @@ There is a third mechanism for creating a substantial CSM, and that is by sheddi
 
 In this paper, we present visual and near-IR photometry and spectroscopy of PSN J13522411 from discovery up to $\sim450$ d afterward. PSN J13522411 was discovered by Zhangwei Jin and Xing Gao on 2015 Jan. 14.9 in three unfiltered images of NGC 5337. The reported apparent magnitude was 16.9, which we assume to be equivalent to the R magnitude, but is more likely to be an upper limit. No source was visible in images taken on Jan. 07 (limiting mag 19.5). It was classified as having a type IIn spectrum on 2015 Jan. 16.9 by Jujia Zhang and Xiaofeng Wang. At a redshift of $z = 0.007007$ (2165 km/s), this corresponds to a distance of 36.39 Mpc ($m - M = 32.8$ mag), with a Milky Way line-of-sight extinction $A_v = 0.038$ mag and reddening $E(B - V) = 0.013$ mag. PSN J13522411 resides in the outer disk of NGC 5337, at a projected separation of $\sim18$ arcsec ($\sim3$ kpc) from the host galaxy's nucleus. Our observations are presented in Section 2, and the light curve and spectral evolution are analysed in Section 3. Section 4 provides a summary of our work.
 
-%% Observations
+% Observations
 \section{Observations} \label{obs}
 
 \begin{figure}
@@ -46,81 +77,65 @@ PSN J13522 was discovered on three 40-s survey images taken with an unfiltered C
 \subsection{SLOTIS photometry} \label{obs:slotis}
 After discovery of PSN J13522, the field was added to the queue of the robotic Super-LOTIS 24-inch telescope \citep[SLOTIS;][]{Wil08} on Kitt Peak for multifilter (B, V, R, and I) follow-up observations. Seeing varied between $\sim2-4$ arcsec. Images were automatically calibrated using a custom pipeline by Peter Milne, and aperture photometry was performed manually. The magnitudes were calibrated using the reference star list from the SLOTIS pipeline, shown in Table 4. The photometry is summarized in Table \ref{tab:slotis}.
 
-\begin{table}\begin{center}\begin{minipage}{3.25in}
-      \caption{SLOTIS photometry}
+\begin{table*}
+\caption{SLOTIS photometry}
 \centering
-\scriptsize
-\tighten
-\begin{tabular}{@{}ccccccccc}\hline\hline
-Time &Filter &Mag &$\sigma$ &Filter &Mag &$\sigma$ \\
-(days) & &(mag) &(mag) & &(mag) &(mag) \\
+\label{tab:slotis}
+\begin{tabular}{ccccccccc}
+\hline
+Time &B &$\sigma_B$ &V &$\sigma_V$ &R &$\sigma_R$ &I &$\sigma_I$ \\
+(days) &(mag) &(mag) &(mag) &(mag) &(mag) &(mag) &(mag) &(mag) \\
 \hline
 %% Begin data
-111 &B &17.273 &0.216 &V &16.692 &0.068 \\
-111 &R &15.97  &0.032 &I &15.173 &0.029 \\
-113 &B &17.603 &0.131 &V &16.535 &0.061 \\
-113 &R &16.06  &0.034 &I &15.131 &0.034 \\
-115 &B &17.201 &0.083 &V &16.785 &0.049 \\
-115 &R &15.906 &0.021 &I &15.1   &0.024 \\
-125 &B &16.974 &0.052 &V &16.695 &0.048 \\
-125 &R &16.031 &0.03  &I &15.216 &0.027 \\
-131 &B &17.439 &0.13  &V &16.915 &0.056 \\
-131 &R &16.073 &0.029 &I &15.196 &0.025 \\
-134 &B &17.342 &0.261 &V &16.869 &0.071 \\
-134 &R &16.194 &0.045 &I &15.289 &0.032 \\
-137 &B &17.005 &0.078 &V &16.971 &0.096 \\
-137 &R &16.163 &0.038 &I &15.323 &0.037 \\
-140 &B &17.223 &0.128 &V &17.017 &0.074 \\
-140 &R &16.278 &0.047 &I &15.429 &0.046 \\
-155 &B &-      &-     &V &16.924 &0.045 \\
-155 &R &16.141 &0.022 &I &-      &- \\
-158 &B &-      &-     &V &16.816 &0.045 \\
-158 &R &16.14  &0.024 &I &-      &- \\
-349 &B &-      &-     &V &-      &- \\
-349 &R &16.894 &0.027 &I &16.257 &0.055 \\
-363 &B &-      &-     &V &17.527 &0.036 \\
-363 &R &16.869 &0.039 &I &-      &- \\
-404 &B &18.149 &0.109 &V &17.948 &0.077 \\
-404 &R &17.085 &0.079 &I &16.754 &0.083 \\
+111 &17.273 &0.216 &16.692 &0.068 &15.970 &0.032 &15.173 &0.029 \\
+113 &17.603 &0.131 &16.535 &0.061 &16.060 &0.034 &15.131 &0.034 \\
+115 &17.201 &0.083 &16.785 &0.049 &15.906 &0.021 &15.100 &0.024 \\
+125 &16.974 &0.052 &16.695 &0.048 &16.031 &0.030 &15.216 &0.027 \\
+131 &17.439 &0.130 &16.915 &0.056 &16.073 &0.029 &15.196 &0.025 \\
+134 &17.342 &0.261 &16.869 &0.071 &16.194 &0.045 &15.289 &0.032 \\
+137 &17.005 &0.078 &16.971 &0.096 &16.163 &0.038 &15.323 &0.037 \\
+140 &17.223 &0.128 &17.017 &0.074 &16.278 &0.047 &15.429 &0.046 \\
+155 &-      &-     &16.924 &0.045 &16.141 &0.022 &-      &- \\
+158 &-      &-     &16.816 &0.045 &16.140 &0.024 &-      &- \\
+349 &-      &-     &-      &-     &16.894 &0.027 &16.257 &0.055 \\
+363 &-      &-     &17.527 &0.036 &16.869 &0.039 &-      &- \\
+404 &18.149 &0.109 &17.948 &0.077 &17.085 &0.079 &16.754 &0.083 \\
 %% End data
-\hline \\
+\hline
 \end{tabular}
-\label{tab:slotis}
-\end{minipage}\end{center}
-\end{table}
+\end{table*}
 
 \subsection{UKIRT JHK photometry} \label{obs:ukirt}
+
 Three sets of JHK images were collected during the same period as the SLOTIS data, using the UK Infrared Telescope's (UKIRT) Wide Field Camera instrument \citep[WFCAM;][]{Hod09}. The 'seeing', estimated from the full width at half-maximum intensity (FWHM) of stars on the CCD frame, varied between $\sim1-2$ arcsec. Aperture photometry was performed manually, and the magnitudes were calibrated using the same reference stars from SLOTIS. The results are summarized in Table \ref{tab:ukirt}.
 
-\begin{table}\begin{center}\begin{minipage}{3.25in}
-      \caption{UKIRT photometry}
+\begin{table*}
+\caption{UKIRT photometry}
 \centering
-\scriptsize
-\tighten
-\begin{tabular}{@{}ccccccc}\hline\hline
+\label{tab:ukirt}
+\begin{tabular}{ccccccc}
+\hline
 Time &J &$\sigma_J$ &H &$\sigma_H$ &K &$\sigma_K$ \\
 (days) &(mag) &(mag) &(mag) &(mag) &(mag) &(mag) \\
 \hline
 %% Begin data
-108 &14.074 &0.009 &13.631 &0.01  &13.27 &0.015 \\
+108 &14.074 &0.009 &13.631 &0.010 &13.270 &0.015 \\
 142 &14.409 &0.009 &13.942 &0.011 &13.455 &0.015 \\
 157 &14.521 &0.009 &14.061 &0.011 &13.547 &0.015 \\
 %% End data
-\hline \\
+\hline
 \end{tabular}
-\label{tab:ukirt}
-\end{minipage}\end{center}
-\end{table}
+\end{table*}
 
 \subsection{Kuiper BVR photometry} \label{obs:kuiper}
 One set of images was recorded at a late time using the Mont4k CCD on the 61" Kuiper telescope on Mt. Bigelow \citep{Fon14}. Seeing was $<0.5$ arcsec. The R-band image with compass and scale is shown in Figure \ref{fig:kuiper}. Aperture photometry was performed manually. Some of the reference stars were outside the field of view or saturated, and were thus excluded from the reduction. The results are summarized in Table \ref{tab:kuiper}.
 
-\begin{table}\begin{center}\begin{minipage}{3.25in}
-      \caption{Kuiper photometry, day 428}
+\begin{table}
+\caption{Kuiper photometry, day 428}
 \centering
-\scriptsize
-\tighten
-\begin{tabular}{@{}ccc}\hline\hline
+\label{tab:kuiper}
+\begin{tabular}{@{}ccc}
+\hline
 Filter &mag &$\sigma$ \\ 
  & &(mag) \\
 \hline
@@ -129,27 +144,25 @@ B &18.437 &0.083 \\
 V &18.020 &0.063 \\
 R &17.112 &0.035 \\
 %% End data
-\hline \\
+\hline
 \end{tabular}
-\label{tab:kuiper}
-\end{minipage}\end{center}
 \end{table}
 
 \begin{figure}
-  \includegraphics[width=\linewidth]{graphics/multi_full_spectra.eps}
+  \includegraphics[width=\linewidth]{graphics/multi_full_spectra_labels.eps}
   \caption{Photometric data for PSN J13522411. SLOTIS data in B, V, R, and I are plotted around ~100-160 days in blue, green, red, and cyan, respectively. The discovery magnitude is plotted in red at far left, and the Kuiper data are plotted at the far right. UKIRT data in J, H, and K are plotted in magenta, yellow, and black, respectively. Dates for which spectral data are available are marked in brown at the top. All magnitudes have been corrected for Milky Way reddening.}
   \label{fig:curve}
 \end{figure}
 
 \subsection{Spectroscopy} \label{obs:spec}
-Five high-resolution spectra were obtained using the Bluechannel (BC) spectrometer on the MMT with the 1200 line grating. Four of the spectra were taken during the first six months, while the fifth was taken much later. One early spectrum was obtained using the Multi Object Double Spectrograph \citep[MODS]{Bya00} on the LBT. Two broad spectra were obtained using the Kast spectrograph on the Lick 3-m Shane reflector \citep{Mil93}. Finally, one late-time spectrum was obtained using the Boller \& Chivens (B\&C) spectrograph on the Bok 90-inch telescope on Kitt Peak. All spectra were Doppler-corrected, and the broad spectra were also corrected for reddening. The full spectra are plotted in Figure \ref{fig:full}, and details of the spectra are summarized in Table \ref{tab:spectra}.
+Five high-resolution spectra were obtained using the Bluechannel (BC) spectrometer on the MMT with the 1200 line grating. Four of the spectra were taken during the first six months, while the fifth was taken much later. One early spectrum was obtained using the Multi Object Double Spectrograph \citep[MODS;][]{Bya00} on the LBT. Two broad spectra were obtained using the Kast spectrograph on the Lick 3-m Shane reflector \citep{Mil93}. Finally, one late-time spectrum was obtained using the Boller \& Chivens (B\&C) spectrograph on the Bok 90-inch telescope on Kitt Peak. All spectra were Doppler-corrected, and the broad spectra were also corrected for reddening. The full spectra are plotted in Figure \ref{fig:full}, and details of the spectra are summarized in Table \ref{tab:spectra}.
 
-\begin{table}\begin{center}\begin{minipage}{3.25in}
-      \caption{Spectral observations of PSN J13522411}
+\begin{table}
+\caption{Spectral observations of PSN J13522411}
 \centering
-\scriptsize
-\tighten
-\begin{tabular}{@{}cccc}\hline\hline
+\label{tab:spectra}
+\begin{tabular}{@{}cccc}
+\hline
 Time &Obs./Instr. &Range \\
 (days) & &($\AA$) \\
 \hline
@@ -164,10 +177,8 @@ Time &Obs./Instr. &Range \\
 400 &MMT/BlueChan &5700-7000 \\
 458 &Bok/B\&C     &4000-8300 \\
 %% End data
-\hline \\
+\hline
 \end{tabular}
-\label{tab:spectra}
-\end{minipage}\end{center}
 \end{table}
 
 \begin{figure*}
@@ -177,7 +188,7 @@ Time &Obs./Instr. &Range \\
   \label{fig:full}
 \end{figure*}
 
-%% Analysis
+% Analysis
 \section{Analysis} \label{analysis}
 \subsection{Light curve} \label{analysis:curve}
 \subsubsection{General features} \label{analysis:curve:gen}
@@ -220,16 +231,18 @@ Taking half the FWHM as the velocity of the shock, we estimate the radius of the
 \subsubsection{Host reddening} \label{analysis:spec:red}
 Using the Na D doublet, shown in close-up in Figure \ref{fig:sodium}, we can estimate the amount of reddening due to dust in the host galaxy \citep{Poz12}. Measuring the equivalent width of each line and comparing to the respective chart of equivalent width vs. reddening, we estimate $E(B-V)_{host} \approx 0.39$ mag. We have not applied this correction to either the light curve or the spectra, but we discuss the implications for the total energy in \S \ref{analysis:curve:energy}. This reddening would also affect our determination of the peak wavelength and effective temperature of the Bok spectrum (see \S \ref{analysis:spec:cont}).
 
-%% Conclusion
-\section{Conclusion} \label{conclusion}
+% Conclusions
+\section{Conclusions} \label{conclusion}
+
 We obtained photometry and spectra of PSN J13522411 covering the early and later portions of the SN's decline. By integrating the light curve, we estimate the total radiated energy at $\sim10^{50}$ erg. From the spectral data, we infer that the CSM is a dense, roughly symmetrical stellar wind that had been blowing for at least the last 30 years before the explosion. We also infer from the velocity of the stellar wind that the progenitor was likely a red or yellow supergiant with no obvious signs of severe pre-SN instability. Due to time constraints, we have not yet completed our analysis of this SN. In the coming weeks, we plan to determine the mass and distribution of the CSM, the mass-loss rate due to the stellar wind, and the total energy of the explosion.
 
-%% Acknowledgements
-\section{Acknowledgements}
+\section*{Acknowledgements}
+
 Special thanks goes to Dr. Jennifer Andrews for her assistance with data management and reduction; to the faculty and students of Steward Observatory who helped to produce the Kuiper data; and to Dr. Peter Milne, Principal Investigator for the Super-LOTIS robotic telescope, for his assistance in reducing Super-LOTIS data.
 
-%% Bibliography
-\begin{thebibliography}{}
+%%%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%
+
+\begin{thebibliography}{99}
 \bibitem[Aretxaga et al.(1999)]{Are99} Aretxaga I. et al., 1999, MNRAS, 309, 343
 \bibitem[Byard and O'Brien(2000)]{Bya00} Byard P. L., O'Brien T. P., 2000, Proc. SPIE, 4008, 934
 \bibitem[Filippenko(1997)]{Fil97} Filippenko A. V., 1997, ARA\&A, 35, 309
@@ -244,4 +257,9 @@ Special thanks goes to Dr. Jennifer Andrews for her assistance with data managem
 \bibitem[Zhang and Wang(2015)]{Zha15} Zhang J., Wang X., 2015, ATel, 6939
 \end{thebibliography}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't change these lines
+\bsp	% typesetting comment
+\label{lastpage}
 \end{document}

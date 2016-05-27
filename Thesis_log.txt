@@ -943,4 +943,25 @@ Next time:
   Modify and label light curves
 
 
+26 May
+
+Current tasks:
+  Change LaTeX format to MNRAS
+  Modify tables
+  Modify and label light curves
+
+Today summary:
+  Created MNRAS version of thesis
+  Corrected table format
+  Modified light curves
+    Labelled light curves and spectral epochs
+    Changed spectra markers to thick vertical lines
+    Set xmin = -10 days
+
+Next time:
+  Plot corrected absolute light curve with others
+    99em (II-P), 98S (IIn), 87A, 56Co
+  Modify and label spectra plot
+
+
 
