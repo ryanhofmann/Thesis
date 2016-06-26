@@ -92,3 +92,12 @@ Apr  4  0:09 [PSNJ13522-2016-02-18-MMT-BCH-1200.dop.fits]: psnJ135224
 avg:  8.964E-17  rms:  8.515E-18   snr:    10.53
 avg:  7.786E-17  rms:  8.643E-18   snr:     9.01
 avg:  7.710E-17  rms:  7.479E-18   snr:    10.31
+
+Jun 10 17:14 [PSNJ13522-2015-03-22-MMT-BCH-1200.dop.fits]: PSNJ1352
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  5886.702 1.509E-15 -2.09E-15     1.389
+  5892.646 1.515E-15 -1.75E-15     1.153
+
+Jun 10 17:15 [PSNJ13522-2015-03-22-MMT-BCH-1200.fits]: PSNJ1352
+  5927.895 1.492E-15 -2.02E-15     1.354
+  5933.949 1.510E-15 -1.76E-15     1.162

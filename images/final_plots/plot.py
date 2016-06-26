@@ -34,7 +34,7 @@ def plot(infile, multi=1):
       xi, yi, xierr, yierr = x[ind], y[:, i][ind], xerr[ind], yerr[:, i][ind]
       phot = ax1.errorbar(xi, yi, yierr, xierr, marker='o', linestyle='-')
       color = phot[0].get_color()
-      plt.text(90, yi[1], filters[i], size=10, color=color)
+      plt.text(450, yi[-1], filters[i], size=10, color=color)
   else:
     ind = np.where(y[:, single] != 0)
     xi, yi, xierr, yierr = x[ind], y[:, single][ind], xerr[ind], yerr[:, single][ind]

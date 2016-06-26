@@ -964,4 +964,79 @@ Next time:
   Modify and label spectra plot
 
 
+27 May
+
+Current tasks:
+  Plot corrected absolute light curve (R) with others
+    99em (II-P), 98S (IIn), 87A, 56Co
+  Modify and label spectra plot
+
+Today summary:
+  Researched 56-Co decay
+    Half-life = 77.27 days
+    Slope in magnitudes vs. time = 0.00973955 mag/day, ~ 1 mag/100 days
+  Revisited Poznanski paper on Na D absorption and reddening
+    Final figures in paper indicate E(B-V) > 10 mag
+    Sounds unreasonable, emailed Nathan
+
+Next time:
+  Continue with modifications
+
+
+29 May
+
+Current tasks:
+  Plot corrected absolute light curve (R) with others
+    99em (II-P), 98S (IIn), 87A, 56Co
+  Modify and label spectra plot
+
+Today summary:
+  Added data points to light curve before SLOTIS data
+    9 R/unfiltered, 1 V
+    JM Llapasset images rejected as poor underestimates
+    Edits saved as phot_data_rev.txt
+    New light curve with well-sampled rise, saved as multi_rev.png
+  Still waiting for Nathan to reply about extinction correction
+
+Next time:
+  Modify and label spectra plots
+  Absolute light curves? Still waiting on Nathan
+
+
+31 May
+
+Current tasks:
+  Plot corrected absolute light curve (R) with others
+    99em (II-P), 98S (IIn), 87A, 56Co
+  Modify and label spectra plot
+
+Today summary:
+  Modified full spectra plot
+    Labelled telluric features in MMT, LBT, and Bok
+    Added superscript numerals to day numbers, indicating telescope/instrument
+    Chopped off blue end of MODS spectrum
+    Tighter x range
+  Modified H-alpha spectra plot
+    Labels as above
+    Increased aspect ratio (taller)
+
+Next time:
+  Statistics plots: labels and error bars
+  Tackle local extinction
+
+
+26 June
+
+Current tasks:
+  Finish spectra plot modifications
+  Plot absolute light curve with comparisons
+
+Today summary:
+  Updated spectra labels (days + 5)
+  H-alpha stats error bars (estimated from multiple MMT measurements)
+    Eq. width: +/- 10 AA
+    Flux: +/- 1e-14 erg/s/cm^2
+    FWHM: +/- 100 km/s
+    P-Cygni width: +/- 5 km/s
+  Added error bars and labels to stat plot
 

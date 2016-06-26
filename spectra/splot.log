@@ -1,3 +1,25 @@
 
 Apr 27 23:23 [MMT/PSNJ13522-2015-05-10-MMT-BCH-1200.dop.fits]: J13522
     center      cont      flux       eqw      core     gfwhm     lfwhm
+
+Jun 26 13:50 [MMT/PSNJ13522-2015-03-22-MMT-BCH-1200.dop.fits]: PSNJ1352
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  6557.663 1.459E-15 1.590E-13    -108.8
+
+Jun 26 13:51 [MMT/PSNJ13522-2015-06-12-MMT-BCH-1200.dop.fits]: J13522
+  6555.861 7.400E-16 3.593E-13    -484.9
+
+Jun 26 13:51 [MMT/PSNJ13522-2016-02-18-MMT-BCH-1200.dop.fits]: psnJ135224
+  6558.733 8.194E-17 1.265E-13    -1560.
+
+Jun 26 13:54 [MMT/PSNJ13522-2015-03-22-MMT-BCH-1200.dop.fits]: PSNJ1352
+  6556.803 1.457E-15 1.590E-13    -108.8
+
+Jun 26 13:56 [MMT/PSNJ13522-2015-06-12-MMT-BCH-1200.dop.fits]: J13522
+  6555.852 7.434E-16 3.579E-13    -480.9
+
+Jun 26 13:56 [MMT/PSNJ13522-2016-02-18-MMT-BCH-1200.dop.fits]: psnJ135224
+  6558.744 8.194E-17 1.264E-13    -1557.
+
+Jun 26 14:16 [MMT/PSNJ13522-2015-06-12-MMT-BCH-1200.dop.fits]: J13522
+    center      cont      flux       eqw      core     gfwhm     lfwhm

@@ -20,7 +20,7 @@ def specplot(xmin=0, xmax=0, vel=0, narrow=0, scale='lin', shift=0, stretch=0, x
   xyarr = []
   delta = [-2.7, 1.0, -3.2, -3.6, -0.1, -1.0, 0.0, -2.5, 0.0]
   c = ['darkred', 'red', 'orange', 'y', 'green', 'cyan', 'blue', 'purple', 'magenta']
-  days = [67, 91, 106, 116, 149, 191, 235, 400, 458]
+  days = [72, 96, 111, 121, 154, 196, 240, 405, 463]
   no = []
   for i in range(len(spectra)):
     if narrow and 'MMT' not in spectra[i]:
@@ -97,7 +97,29 @@ def specplot(xmin=0, xmax=0, vel=0, narrow=0, scale='lin', shift=0, stretch=0, x
     plt.ylabel(r'F$_\lambda$ (scaled)')
 
   # Label spectra
-  if shift > 0:
+  if shift > 1:
     for i in range(0, len(xyarr)):
-      plt.text(x_label, shift**(d_label*i+y_label), str(days[i]), color=c[i])
+      if 'MMT' in spectra[i]:
+        plt.text(x_label, shift**(d_label*i+y_label), str(days[i])+'$^{i}$', color=c[i])
+        if '2016' not in spectra[i]:
+          if vel:
+            plt.text(11600, shift**(d_label*i+y_label), '$\oplus$', color='brown')
+          else:
+            plt.text(6840, shift**(d_label*i+y_label), '$\oplus$', color='brown')
+      if 'LBT' in spectra[i]:
+        plt.text(x_label, shift**(d_label*i+y_label), str(days[i])+'$^{ii}$', color=c[i])
+        if vel:
+          plt.text(11600, shift**(d_label*i+y_label), '$\oplus$', color='brown')
+          plt.text(43500, shift**(d_label*i+2.*y_label), '$\oplus$', color='brown')
+        else:
+          plt.text(6840, shift**(d_label*i+y_label), '$\oplus$', color='brown')
+          plt.text(7550, shift**(d_label*i+2.*y_label), '$\oplus$', color='brown')
+      if 'Berkeley' in spectra[i]:
+        plt.text(x_label, shift**(d_label*i+y_label), str(days[i])+'$^{iii}$', color=c[i])
+      if 'Bok' in spectra[i]:
+        plt.text(x_label, shift**(d_label*i+y_label), str(days[i])+'$^{iv}$', color=c[i])
+        if vel:
+          plt.text(43500, shift**(d_label*i+3.5*y_label), '$\oplus$', color='brown')
+        else:
+          plt.text(7550, shift**(d_label*i+3.5*y_label), '$\oplus$', color='brown')
   plt.show()
