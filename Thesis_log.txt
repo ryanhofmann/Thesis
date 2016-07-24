@@ -1040,3 +1040,27 @@ Today summary:
     P-Cygni width: +/- 5 km/s
   Added error bars and labels to stat plot
 
+Next time:
+  Determine local extinction
+  Plot absolute light curve with comparisons
+
+
+July 24
+
+Current tasks:
+  Determine local extinction
+  Plot absolute light curve with comparisons
+
+Today summary:
+  Compared Berkeley spectrum with blackbody spectra
+  Best fit: 3900 K (6500 K source)
+    Saved plot in spectra/final_plots
+  A_v (5400 AA): 3 mag
+  Emailed Nathan, waiting for reply before applying corrections
+
+Next time:
+  Correct light curve for local extinction
+  Plot absolute light curve with comparisons
+
+
+
