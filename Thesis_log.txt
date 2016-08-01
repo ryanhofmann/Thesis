@@ -1082,7 +1082,7 @@ Today summary:
   Created Python script red_plot.py, saved in spectra/final_plots
     Applies CCM to 6500 K blackbody, plots with July Berkeley spectrum
     Change A_V to fit baseline
-    Best fit: A_V = 4, implying A(R) ~ 3.25 mag
+    Best fit: A_V = 2, implying A(R) ~ 1.6 mag or factor of 4.4 extinction
     Saved plot of fit, emailed Nathan progress
 
 Next time:

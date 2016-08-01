@@ -45,7 +45,7 @@ def red(BB, A_V=1, R_V=3.1): # blackbody, R_V=A(V)/E(B-V)
   for i in range(0, N+1):
     lam = BB[i,0] # angstroms
     A_lam = CCM(lam, A_V, R_V) # mag
-    fac = 10**(-A_lam/5) # reduction factor < 1
+    fac = 10**(-A_lam/2.5) # reduction factor < 1
     BB_red[i,0] = lam
     BB_red[i,1] = BB[i,1]*fac
 
@@ -65,7 +65,7 @@ T = 6500 # kelvins
 low = 4500 # angstroms
 high = 1e4 # angstroms
 N = 100
-A_V = 4 # magnitudes
+A_V = 2 # magnitudes
 
 Berk1 = spec_import(infile)
 BB = BB_curve(T=T, lam_min=low, lam_max=high, N=N)
