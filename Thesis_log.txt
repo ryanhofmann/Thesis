@@ -1063,4 +1063,31 @@ Next time:
   Plot absolute light curve with comparisons
 
 
+July 31
+
+Current tasks:
+  Correct light curve for local extinction
+  Plot absolute light curve with comparisons
+
+Today summary:
+  Researched extinction law
+    CCM extinction law (found in help for IRAF task 'deredden')
+    See ApJ 345:245, 1989
+    A_lam/A_V = a(x) + b(x)/R_V
+    R_V = A_V/E(B-V)
+    a, b = wavelength-dependent extinction coefficients
+    For optical/NIR, x = um^-1 - 1.82
+    a(x) = 1 + 0.17699*x - 0.50447*x^2 - 0.02427*x^3 + 0.72085*x^4 + 0.01979*x^5 - 0.77530*x^6 + 0.32999*x^7
+    b(x) = 1.41338*x + 2.28305*x^2 + 1.07233*x^3 - 5.38434*x^4 - 0.62251*x^5 + 5.30260*x^6 - 2.09002*x^7
+  Created Python script red_plot.py, saved in spectra/final_plots
+    Applies CCM to 6500 K blackbody, plots with July Berkeley spectrum
+    Change A_V to fit baseline
+    Best fit: A_V = 4, implying A(R) ~ 3.25 mag
+    Saved plot of fit, emailed Nathan progress
+
+Next time:
+  Correct light curve for local extinction
+  Plot absolute light curve with comparisons
+
+
 
