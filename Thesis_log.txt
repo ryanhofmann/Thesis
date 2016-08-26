@@ -1090,4 +1090,31 @@ Next time:
   Plot absolute light curve with comparisons
 
 
+August 15
+
+Current tasks:
+  Correct light curve for local extinction
+  Plot absolute light curve with comparisons
+
+Today summary:
+  Nathan recommended Open Supernova Catalog
+  Downloaded 99em, 98S, 87A data
+    Time in MJD
+    Mag apparent
+  Wrote python script to extract photometry tables
+  Created csv for all three
+  Convert mjd to days since discovery
+    SN   mjd=0
+    99em 51480
+    98S  50874
+    87A  46850
+  Two sources for 99em conflict: 1 and 4
+
+Next time:
+  Resolve conflict between 99em sources 1 and 4
+  Convert comparison light curves to proper units
+  Correct light curve for local extinction
+  Plot absolute light curve with comparisons
+
+
 
