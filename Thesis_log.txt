@@ -1117,4 +1117,24 @@ Next time:
   Plot absolute light curve with comparisons
 
 
+August 26
+
+Current tasks:
+  Resolve conflict between 99em sources 1 and 4
+  Convert comparison light curves to proper units
+  Correct light curve for local extinction
+  Plot absolute light curve with comparisons
+
+Today summary:
+  Obtained phot tables from Nathan: 99em and 98S
+  Compiled R photometry from four SNe into phot_data_comp.txt
+  Plotted four SNe comparison with Co-56
+    Two y-axes and magnitude corrections, saved as comp.png
+  Emailed Nathan about progress
+
+Next time:
+  Start analyzing data
+  Derive SN properties
+
+
 
