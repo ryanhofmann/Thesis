@@ -1,8 +1,9 @@
-Aretxaga I. et al., 2013, MNRAS, 309, 343
+Aretxaga I. et al., 1999, MNRAS, 309, 343
 Byard P. L., O'Brien T. P., 2000, Proc. SPIE, 4008, 934
 Filippenko A. V., 1997, ARA&A, 35, 309
 Fontaine G., 2014, ASP Conference Series, 481, 19
 Fransson, C. et al., 2015, The Astrophysical Journal Letters, 806, L19
+Germany, L. et al., 2000, ApJ 533, 320
 Hodgkin S. T. et al., 2009, MNRAS 394, 675
 Jin Z., Gao X., 2015, CBAT "Transient Object Followup Reports", PSN J13522411+3941286
 Miller J. S., Stone R. P. S., 1993, Lick Obs. Tech. Rep. 66, Lick Obs., Santa Cruz

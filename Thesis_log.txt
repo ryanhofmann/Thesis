@@ -1137,4 +1137,22 @@ Next time:
   Derive SN properties
 
 
+September 5
+
+Current tasks:
+  Start analyzing data
+  Derive SN properties
+
+Today summary:
+  Added SNe to comparison plot: 1988Z, 2010jl, 1997cy
+  Applied local extinction correction to Berkeley spectra
+    Saved as *.local.fits
+    Continuum looks right for 6500 K blackbody
+
+Next time:
+  Proceed with deriving SN properties
+    Direct calcualtions of luminosity, energy, etc.
+    Comparisons with 1998S and others
+
+
 
